@@ -1,0 +1,94 @@
+.container {
+  width: 800px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.profileWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.post {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.profile h2 {
+  font-size: 16px;
+  color: black;
+}
+.profile h5 {
+  color: #6e7070;
+}
+.profile img {
+  width: 35px;
+}
+.box p {
+  color: #6e7070;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+#counterWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f6fa;
+  border-radius: 8px;
+  width: 80px;
+  color: hsl(238, 40%, 52%);
+}
+
+.btn-counter{
+  border: none;
+  width: 30px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: #f5f6fa;
+}
+
+#DeleteBtns {
+  color: hsl(358, 79%, 66%);
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.btn img {
+  width: 14px;
+  cursor: pointer;
+}
+.Reply {
+  border: none;
+  color: hsl(238, 40%, 52%);
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.delete-reply {
+  display: flex;
+  gap: 10px;
+}
